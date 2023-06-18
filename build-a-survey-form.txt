@@ -1,0 +1,120 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+<!DOCTYPE html>
+<html lang="en">
+  <h1 id="title">How can NBA TopShot Improve?</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform!</p>
+  <form id="survey-form">
+    
+    <div class ="input-element">
+    <label id="name-label">
+    Name
+    </label>
+    <input placeholder="name" id="name" type="text" required/>
+    </div>
+    
+    <div class ="input-element">
+    <label id="email-label">
+    Email
+    </label>
+    <input placeholder="email" id="email" type="email" required/>
+    </div>
+    
+    <div class ="input-element">
+    <label id="number-label">
+    Age
+    </label>
+    <input placeholder="age" id="number" min="18" max="110" type="number" required/>
+    </div>
+    
+    <div class ="input-element">
+    <label id="select-label">
+    What is your prefered Crypto Website?
+    </label>
+    <select id="dropdown">
+      <option>Coinbase</option>
+      <option>Binance</option>
+      <option>Other</option>
+    </select>
+    </div>
+    
+    <div class="input-element">
+      <label>Have you been to a game before in person?</label>
+    <div>
+      <label><input type ="radio" name="game" value="yes">Yes</label>
+      </div>
+      <div>
+      <input type ="radio" name="game" value="no">No</label>
+      </div>
+    </div>
+
+  <div class="input-element">
+      <label>Which Suggestion are good ideas for us to implement?</label>
+    <div>
+      <label><input type ="checkbox" name="ideas" value="moments">Less moments per set</label>
+      </div>
+      <div>
+      <input type ="checkbox" name="ideas" value="sets">Less sets</label>
+      </div>
+    <div>
+      <input type ="checkbox" name="ideas" value="ads">More advertising</label>
+      </div>
+    <div>
+      <input type ="checkbox" name="ideas" value="burn">More burning</label>
+      </div>
+    <div>
+      <input type ="checkbox" name="ideas" value="experiences">Greater focus on building up experiences</label>
+      </div>
+    <div class="input-element">
+      <label>Additional Comments</label>
+    <textarea type="text"></textarea>
+    </div>
+    
+    <button type="submit" id="submit">
+      Submit
+      </button>
+    
+    </div>
+
+
+    </form>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color: lightblue;
+  text-align: center;
+}
+form{
+  max-width: 500px;
+  text-align: left;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+input{
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.input-element{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+}
+select{
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+input[type="checkbox"]{
+  width: 15px;
+  height: 15px;
+}
+
+
+** end of undefined **
+
